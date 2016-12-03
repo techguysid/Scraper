@@ -1,0 +1,32 @@
+{
+  "name": "medium_scraper_spider",
+  "version": "1.0.0",
+  "description": "Script to crawl through Medium.com and scrape all the hyperlinks recursively using 2 methods - i)Promises ii)Async.",
+  "scripts": {
+  "start": "node server/app.js"
+  },
+  "engines": {
+  "node": ">=6.2.2"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/techguysid/Scraper.git"
+  },
+  "keywords": [
+    "medium scraper spider crawler rentomojo_assignment"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.25",
+    "body-parser": "^1.13.1",
+    "commander": "^2.8.1"
+  },
+  "dependencies": {
+    "scraperjs": "^1.2.0",
+    "bluebird": "^3.0.0",
+    "lodash": "^4.0.0"
+  },
+  "author": "Siddharth Udeniya (techguysid)",
+  "license": "ISC"
+}
